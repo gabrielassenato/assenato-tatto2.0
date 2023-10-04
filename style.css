@@ -117,7 +117,7 @@ footer {
     padding: 15px 0;
 }
 
-@media screen and (max-width: 767px) { /* quando ele tiver no minimo 920 irá respeitar essas regras*/
+@media screen and (max-width: 767px) { 
     header img {
         height: 100px;
     }
