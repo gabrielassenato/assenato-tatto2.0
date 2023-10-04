@@ -1,0 +1,124 @@
+@font-face {
+    font-family: The Tibal Box;
+    src: url(fonte/The_Tribal_Box_demo-font-FFP.ttf) format(truetype);
+}
+
+header img {
+    height: 150px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #dc3545;
+    background-color: #adadad;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #adadad;
+    z-index: 1000;
+    font-family: The Tibal Box, Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+}
+
+.container h1, h2 {    
+    font-family: The Tibal Box, Arial, Helvetica, sans-serif;
+    color: #dc3545;
+    text-align: center;
+    font-size: 6em;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    height: 420px;
+    width: 100%;
+}
+
+section {
+    padding-top: 170px;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#contato p {
+    text-align: center;
+}
+
+ul.redes-sociais {
+    text-align: center;
+    padding-left: 0;
+}
+
+ul.redes-sociais li {
+    display: inline-block;
+}
+
+.redes-sociais li img {
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.redes-sociais li img:hover {
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+form input {
+    margin-bottom: 10px;
+}
+
+form textarea {
+    margin-bottom: 20px;
+}
+
+.form-check-input:checked {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.form-check {
+    font-size: 1.5em;
+}
+
+form button {
+    margin-top: 20px;
+    width: 49%;
+}
+
+iframe {
+    width: 100%;
+    height: 645px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #adadad;
+    padding: 15px 0;
+}
+
+@media screen and (max-width: 767px) { /* quando ele tiver no minimo 920 irá respeitar essas regras*/
+    header img {
+        height: 100px;
+    }
+
+    #local {
+        padding-top: 170px;
+    }
+}
