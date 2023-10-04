@@ -26,6 +26,10 @@ header {
     font-size: 3.5em;
 }
 
+#sobre p {
+    text-align: justify;
+}
+
 .container h1, h2 {    
     font-family: The Tibal Box, Arial, Helvetica, sans-serif;
     color: #dc3545;
